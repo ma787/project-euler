@@ -1,0 +1,37 @@
+Properties of a prime number:
+factors: 1,itself
+It does not have any factors smaller than its square root.
+----------------------------------------------------------------
+Algorithm
+
+1. Make a list of all the numbers from 2 to 2,000,000.
+2. Assosciate 0 with every element in the list.
+3. Set p, the smallest prime number (initial value is 2, if p > (2,000,000)^0.5, go to 7)
+4. Assosciate 1 with every multiple of p in the list.
+5. Find the first number larger than p which has a 0 associated with it.
+6. Go to step 3.
+7. The numbers with a zero associated with them are the primes lower than 2,000,000.
+------------------------------------------------------------------------------------------------
+Proof
+
+Prove that for any prime number, p, p^2 is the smallest multiple of p such that p is the smallest prime divisor of p^2.
+
+assumption: There exists a multiple of p < p^2 such that p is the smallest prime divisor
+
+np < p^2
+
+so n < p
+ 
+p is the smallest prime divisor of np
+
+n < p so n cannot be prime
+
+if n is not prime then it has at least one unique prime divisor, a.
+
+a < n so a < p
+
+a|n so a|np
+
+so a is the smallest prime divisor of np
+ 
+so the assumption cannot be true or there is a contradiction

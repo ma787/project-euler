@@ -1,0 +1,6 @@
+1. Find the first 13 digits in the number (store it in a list).
+2. Find the product of these digits.
+3. Remove the first digit from the list and add the fourteenth digit.
+4. Find the product of these digits.
+5. Set the bigger product as the max value.
+6. Repeat this process for the (n+1)th and the (n+13)th digits (where n is the number of iterations).

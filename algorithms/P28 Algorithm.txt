@@ -1,0 +1,2 @@
+difference increases by 2 every 4 times
+square number on upper right diagonal (square of row length)

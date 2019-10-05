@@ -1,0 +1,10 @@
+1. Find the smallest number with over 500 divisors.
+2. Solve the equation: 0.5n^2 +0.5n – x = 0, where x is the number.
+3. If n is an integer, go to step 5.
+4. Round n up to an integer.
+5. Evaluate 0.5*n*(n+1) to get a triangular number.
+6. Find the number of divisors of this number.
+7. If it has more than 500 divisors, go to step 10.
+8. Add (n+1) to the nth triangular number.
+9. Go to step 6.
+10. The triangular number that you have is the first with over 500 divisors. Output the number.

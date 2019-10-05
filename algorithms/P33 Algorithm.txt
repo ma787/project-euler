@@ -1,0 +1,11 @@
+1. Start with a = 10 and b = 11.
+2. Check if the last digit of a is equal to the first digit of b.
+3. Take this digit away from both a and b to create c and d, respectively.
+4. If b = 0, then skip to step 6.
+5. If a/b = c/d, add a/b to the list of curious fractions.
+6. If a = 98, go to step 8.
+7. If b = 99, increase a by 1 and set b as a+1.
+8. Multiply the numerators of all the fractions by each other.
+9. Multiply the denominators of all the fractions by each other.
+10. Find the gcd of the two products.
+11. Divide the denominator by the gcd to get it in its simplest form.

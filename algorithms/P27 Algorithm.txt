@@ -1,0 +1,25 @@
+if |a| is greater than |b| and a is -ve, it won't be prime
+if n(n+a) is a multiple of b, it won't be prime
+if a is odd and b is even, it will always be even
+if a is even and b is odd, n(n+a) + b will be odd for even values of n
+if a is even and b is even,  n(n+a) + b will be odd for odd values of n.
+if a is odd and b is odd, n(n+a) + b will always be odd
+
+1. Begin with a=999, b=999, n=0
+2. Evaluate n^2 + an + b.
+3. If it is -ve:
+	- store a, b and n
+	- decrease b by 1
+	- set a to 999
+	- go back to step 2
+4. If it is even and greater than 2:
+	- store a, b and n
+	- decrease a by 1
+	- go back to step 2
+5. If it is prime:
+	-increase n by 1
+	-go back to step 2
+6. Otherwise:
+	-store a,b, and n
+	-decrease a by 1
+	-go back to step 2
