@@ -1,9 +1,0 @@
-An x-digit number made up entirely of 9's is the largest x-digit number.
-
-If you find a value of x such that the sum of the factorials of the digits
-is less than x-digits long, that is a limit for a curious number
-(i.e. there are no curious numbers equal to or greater than that number)
-
-For example, if x was 7:
-9! + 9! + 9! + 9! + 9! + 9! + 9!
-would have to be a 6-digit number or less

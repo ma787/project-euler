@@ -1,9 +1,0 @@
-step 1:
-
-1. Multiply the numerator by 10 until it is bigger than the denominator.
-2. Store the numerator in a list.
-2. Divide the numerator by the denominator, finding the quotient and the remainder.
-3. If the remainder is 0, stop (the decimal is terminating).
-4. If the remainder is in the list of numerators, stop.
-5. Store the quotient.
-6. Set the remainder as the new numerator and go back to step 1.
