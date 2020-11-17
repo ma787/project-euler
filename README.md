@@ -1,2 +1,2 @@
 # project-euler
-My solutions to the problems on Project Euler, written in Python and OCaml.
+My solutions to the problems on Project Euler in Python.
